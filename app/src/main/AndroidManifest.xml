@@ -2,7 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.dd.testshareroomapp2">
 
-    <uses-permission android:name="com.example.android.contentprovidersample.provider.READ_WRITE" />
+<!--    Architecture component-->
+<!--    <uses-permission android:name="com.example.android.contentprovidersample.provider.READ_WRITE" />-->
+    
+<!--    Kripton-->
+    <uses-permission android:name="com.abubusoft.contentprovidersample.provider.READ_WRITE" />
 
     <application
         android:allowBackup="true"

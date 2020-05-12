@@ -18,9 +18,24 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
+
+    /**
+     * Architecture component
+     * https://github.com/android/architecture-components-samples/tree/master/PersistenceContentProviderSample
+     */
+//    private val CHEESE_URI =
+//        Uri.parse("content://com.example.android.contentprovidersample.provider/cheeses")
+//    private val CHEESE_ID = "_id"
+
+    /**
+     * Kripton
+     * https://github.com/xcesco/kripton-examples/tree/master/persistence-content-provider-sample
+     */
     private val CHEESE_URI =
-        Uri.parse("content://com.example.android.contentprovidersample.provider/cheeses")
-    private val CHEESE_ID = "_id"
+        Uri.parse("content://com.abubusoft.contentprovidersample.provider/cheese")
+    private val CHEESE_ID = "id"
+
+
     private val CHEESE_NAME = "name"
     private val LOADER_CHEESES: Int = 1
     private var mCheeseAdapter: CheeseAdapter? = null
