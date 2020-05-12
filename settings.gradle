@@ -1,0 +1,2 @@
+rootProject.name='TestShareRoomApp2'
+include ':app'
